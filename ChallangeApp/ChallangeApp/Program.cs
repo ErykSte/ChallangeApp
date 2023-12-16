@@ -1,7 +1,5 @@
 ﻿// Zadanie domowe dzień 4
 
-using System.ComponentModel.Design;
-
 var Name = "Andrzej";
 var Sex = "Mężczyzna";
 var Age = 17;
