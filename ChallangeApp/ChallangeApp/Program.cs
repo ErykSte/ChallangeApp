@@ -17,11 +17,10 @@ List<int> numbers = new List<int>()
     6,
     7,
     8,
-    9,
-
+    9
 };
 
 foreach (char Letter in Letters);
 {
-    Console.WriteLine(numbers);
+    
 }
