@@ -6,18 +6,18 @@ namespace ChallangeApp
         private List<int> score = new List<int>();
 
 
-        public Employee(string login, string password, string age)
+        public Employee(string name, string surename, int age)
         {
-            this.Login = login;
-            this.Password = password;
-            this.Age = age;
+            this.name = name;
+            this.surename = surename;
+            this.age = age;
         }
 
-        public string Login { get; private set; }
+        public string name { get; private set; }
 
-        public string Password { get; private set; }
+        public string surename { get; private set; }
 
-        public string Age { get; private set; }
+        public int age { get; private set; }
 
         public int Result
         {
