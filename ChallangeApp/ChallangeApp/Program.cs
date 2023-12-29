@@ -1,50 +1,50 @@
-//Zadanie domowe dzieñ 6 :)
+//Zadanie domowe dzieñ 7.
 using ChallangeApp;
 
-Employee employee1 = new Employee("Marek", "Ja³owski", 23);
-Employee employee2 = new Employee("Damian", "Wiœniewski", 28);
-Employee employee3 = new Employee("Aneta", "Kaczka", 35);
+User user1 = new User("Marek", "Ja³owski", 23);
+User user2 = new User("Damian", "Wiœniewski", 28);
+User user3 = new User("Aneta", "Kaczka", 35);
 
-employee1.AddScore(5);
-employee1.AddScore(6);
-employee1.AddScore(3);
-employee1.AddScore(4);
-employee1.AddScore(8);
+user1.AddScore(5);
+user1.AddScore(6);
+user1.AddScore(3);
+user1.AddScore(4);
+user1.AddScore(8);
 
-employee2.AddScore(1);
-employee2.AddScore(3);
-employee2.AddScore(9);
-employee2.AddScore(4);
-employee2.AddScore(7);
+user2.AddScore(1);
+user2.AddScore(3);
+user2.AddScore(9);
+user2.AddScore(4);
+user2.AddScore(7);
 
-employee3.AddScore(8);
-employee3.AddScore(9);
-employee3.AddScore(1);
-employee3.AddScore(3);
-employee3.AddScore(2);
+user3.AddScore(8);
+user3.AddScore(9);
+user3.AddScore(1);
+user3.AddScore(3);
+user3.AddScore(2);
 
 
-List<Employee> employees = new List<Employee>()
+List<User> users = new List<User>()
 {
-    employee1, employee2, employee3
+    user1, user2, user3
 };
 
 int maxResult = -1;
-Employee employeeWithMaxResult = null; 
+User userWithMaxResult = null; 
 
-foreach (var employee in employees)
+foreach (var user in users)
 {
-    if (employee.Result > maxResult)
+    if (user.Result > maxResult)
     {
-        employeeWithMaxResult = employee;
-        maxResult = employee.Result;
+        userWithMaxResult = user;
+        maxResult = user.Result;
     }
 }
 
-Console.WriteLine(employee1.name + " " + employee1.surename + " " + employee1.age + " | " + employee1.Result + "pkt.");
-Console.WriteLine(employee2.name + " " + employee2.surename + " " + employee2.age + " | " + employee2.Result + "pkt.");
-Console.WriteLine(employee3.name + " " + employee3.surename + " " + employee3.age + " | " + employee3.Result + "pkt.");
+Console.WriteLine(user1.name + " " + user1.surename + " " + user1.age + " | " + user1.Result + "pkt.");
+Console.WriteLine(user2.name + " " + user2.surename + " " + user2.age + " | " + user2.Result + "pkt.");
+Console.WriteLine(user3.name + " " + user3.surename + " " + user3.age + " | " + user3.Result + "pkt.");
 
 Console.WriteLine("(Pracownik z najwieksz¹ ilosci¹ punktów):");
 
-Console.WriteLine(employeeWithMaxResult.name + " " + employeeWithMaxResult.surename + " " + "lat:" + employeeWithMaxResult.age + " | " + employeeWithMaxResult.Result  + "pkt.");
+Console.WriteLine(userWithMaxResult.name + " " + userWithMaxResult.surename + " " + "lat:" + userWithMaxResult.age + " | " + userWithMaxResult.Result  + "pkt.");

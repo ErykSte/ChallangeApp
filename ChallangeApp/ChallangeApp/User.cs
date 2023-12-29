@@ -1,12 +1,12 @@
-﻿// Zadanie domowe dzień 6.
+﻿// Zadanie domowe dzień 7.
 namespace ChallangeApp
 {
-    public class Employee
+    public class User
     {
         private List<int> score = new List<int>();
 
 
-        public Employee(string name, string surename, int age)
+        public User(string name, string surename, int age)
         {
             this.name = name;
             this.surename = surename;
