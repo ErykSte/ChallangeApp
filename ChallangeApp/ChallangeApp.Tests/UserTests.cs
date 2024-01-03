@@ -4,7 +4,7 @@ namespace ChallangeApp.Tests
     public class UserTests
     {
         [Test]
-        public void WhenUserCollectTwoScoreAdded_ShouldCorrectResult()
+        public void WhenUsersCollectScores_ShouldCorrectSumResult()
         {
             //arrange
             var user1 = new User("Marek", "Ja³owski", 23);
