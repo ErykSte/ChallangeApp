@@ -41,10 +41,10 @@ foreach (var user in users)
     }
 }
 
-Console.WriteLine(user1.name + " " + user1.surename + " " + user1.age + " | " + user1.Result + "pkt.");
-Console.WriteLine(user2.name + " " + user2.surename + " " + user2.age + " | " + user2.Result + "pkt.");
-Console.WriteLine(user3.name + " " + user3.surename + " " + user3.age + " | " + user3.Result + "pkt.");
+Console.WriteLine(user1.name + " " + user1.surname + " " + user1.age + " | " + user1.Result + "pkt.");
+Console.WriteLine(user2.name + " " + user2.surname + " " + user2.age + " | " + user2.Result + "pkt.");
+Console.WriteLine(user3.name + " " + user3.surname + " " + user3.age + " | " + user3.Result + "pkt.");
 
 Console.WriteLine("(Pracownik z najwieksz¹ ilosci¹ punktów):");
 
-Console.WriteLine(userWithMaxResult.name + " " + userWithMaxResult.surename + " " + "lat:" + userWithMaxResult.age + " | " + userWithMaxResult.Result  + "pkt.");
+Console.WriteLine(userWithMaxResult.name + " " + userWithMaxResult.surname + " " + "lat:" + userWithMaxResult.age + " | " + userWithMaxResult.Result  + "pkt.");

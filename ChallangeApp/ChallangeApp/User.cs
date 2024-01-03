@@ -6,16 +6,16 @@ namespace ChallangeApp
         private List<int> score = new List<int>();
 
 
-        public User(string name, string surename, int age)
+        public User(string name, string surname, int age)
         {
             this.name = name;
-            this.surename = surename;
+            this.surname = surname;
             this.age = age;
         }
 
         public string name { get; private set; }
 
-        public string surename { get; private set; }
+        public string surname { get; private set; }
 
         public int age { get; private set; }
 
