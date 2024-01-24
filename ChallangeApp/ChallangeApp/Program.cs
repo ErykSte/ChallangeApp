@@ -3,7 +3,8 @@
 using ChallangeApp;
 
 var employee1 = new Employee("B³a¿ej", "Dudek");
-employee1.AddGrade(5);
+employee1.AddGrade("B³a¿ej");
+employee1.AddGrade(5000);
 employee1.AddGrade(7);
 employee1.AddGrade(8);
 var statistics = employee1.GetStatistics();
